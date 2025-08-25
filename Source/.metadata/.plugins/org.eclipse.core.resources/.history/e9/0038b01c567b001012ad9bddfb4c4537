@@ -1,0 +1,56 @@
+/*
+ * app_main.c
+ *
+ *  Created on: Aug 2, 2025
+ *      Author: Admin
+ */
+#include "stdint.h"
+#include "error_codes.h"
+#include "console.h"
+#include "bsp_usart.h"
+#include "scheduler.h"
+#include "app_button.h"
+#include "app_temperature.h"
+#include "app_sys_control.h"
+#include "app_led7seg.h"
+#include "soft_timer.h"
+#include "console_dbg.h"
+
+
+	tSchedulerTask 	g_psSchedulerTable[2] =
+						{
+							{
+									&app_button_update,
+
+									10,			//call every 10ms
+									0,			//count from start
+									true		//is active
+							},
+							{
+									&app_temperature_update,
+									500,
+									0,
+									true
+							}
+						};
+	uint32_t 		g_ui32SchedulerNumTasks = 2;
+void app_main(void)
+{
+#ifdef DEBUG_ENABLE
+	bsp_uart_console_init();
+#endif
+	soft_timer_init();
+	app_led7seg_init();
+	app_sys_control_init();
+	SchedulerInit(1000);
+
+	while (1)
+	{
+		SchedulerRun();
+		app_sys_control_update();
+		app_temperature_update();
+
+	}
+}
+
+

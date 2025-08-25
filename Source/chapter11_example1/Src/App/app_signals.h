@@ -1,0 +1,50 @@
+/*
+ * app_signals.h
+ *
+ *  Created on: Aug 12, 2025
+ *      Author: Admin
+ */
+
+#ifndef APP_APP_SIGNALS_H_
+#define APP_APP_SIGNALS_H_
+
+enum system_signals {
+    SIG_INIT,    /* initial transition */
+    SIG_ENTRY,   /* state entry */
+    SIG_UPDATE,	/* state update internally */
+    SIG_EXIT,    /* state exit */
+    SIG_USER     /* first user-defined signal */
+};
+
+/* Event signals */
+enum event_signals {
+
+	EVT_LED7SEG_SCAN_TIME = SIG_USER,
+	EVT_LED7SEG_BLINK_TIME,
+	EVT_LED7SEG_SET_NORMAL_MODE,
+	EVT_LED7SEG_SET_BLINK_MODE,
+	EVT_LED7SEG_SET_OFF_MODE,
+
+	EVT_SYS_CONTROL_TEMPERATURE_UPDATE,
+	EVT_SYS_CONTROL_TEMPERATURE_ERROR,
+	EVT_SYS_CONTROL_SET_BUTTON_PRESSED,
+	EVT_SYS_CONTROL_SET_BUTTON_RELEASED,
+	EVT_SYS_CONTROL_UP_BUTTON_PRESSED,
+	EVT_SYS_CONTROL_UP_BUTTON_RELEASED,
+	EVT_SYS_CONTROL_DOWN_BUTTON_PRESSED,
+	EVT_SYS_CONTROL_DOWN_BUTTON_RELEASED,
+	EVT_SYS_CONTROL_ONOFF_BUTTON_PRESSED,
+	EVT_SYS_CONTROL_ONOFF_BUTTON_RELEASED,
+	MAX_NUM_EVT
+
+};
+
+enum state_handler_t{
+	TRAN_STATUS,
+	HANDLED_STATUS,
+	IGNORED_STATUS
+};
+
+
+
+#endif /* APP_APP_SIGNALS_H_ */

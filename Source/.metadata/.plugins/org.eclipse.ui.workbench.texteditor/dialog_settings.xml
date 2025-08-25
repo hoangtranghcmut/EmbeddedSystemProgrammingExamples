@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="false"/>
+	<list key="searchhistory">
+		<item value="GPIOA"/>
+		<item value="EVT_SYS_CONTROL_DOWN_BUTTON_PRESSED"/>
+		<item value="app_sys_control_s_operation_entry"/>
+		<item value="SOFT_TIMER_BLINK_LED"/>
+		<item value="SPI"/>
+		<item value="_Atomic"/>
+	</list>
+</section>

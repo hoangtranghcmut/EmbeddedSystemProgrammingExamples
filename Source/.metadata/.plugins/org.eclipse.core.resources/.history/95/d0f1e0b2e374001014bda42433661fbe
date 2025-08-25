@@ -1,0 +1,41 @@
+/*
+ * soft_timer.c
+ *
+ *  Created on: Aug 9, 2025
+ *      Author: Admin
+ */
+
+
+#include "soft_timer.h"
+#include "soft_timer_config.h"
+#include "stdint.h"
+
+static softTimer_t softTimer[SOFT_TIMER_MAX_TIMERS] = {0};
+
+
+void  soft_timer_update(void)
+{
+
+	for (uint16_t i = 0; i < SOFT_TIMER_MAX_TIMERS; i++)
+	{
+		uint32_t counter = softTimer[i].timerCounterInMs;
+		if (counter > 0)
+		{
+			counter --;
+			if (0 == counter)
+			{
+				softTimer[i].timerOverFlow = 1;
+				//nếu timerPeriodInMS > 0 thì timer là loại periodic
+				if (softTimer[i].timerPeriodInMS > 0) softTimer[i].timerCounterInMs = softTimer[i].timerPeriodInMS;
+			}
+			else softTimer[i].timerCounterInMs = counter;
+
+		}
+	}
+}
+
+void soft_timer_clear_flag(uint32_t soft_timer_ID)
+{
+	if (soft_timer_ID < SOFT_TIMER_MAX_TIMERS)
+		ATOMIC_WRITE(softTimer[soft_timer_ID].timerOverFlow, 0);
+}

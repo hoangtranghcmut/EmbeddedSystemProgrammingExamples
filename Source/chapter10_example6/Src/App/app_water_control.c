@@ -1,0 +1,224 @@
+/*
+ * app_water_control.c
+ *
+ *  Created on: Aug 8, 2025
+ *      Author: Admin
+ */
+#include "stddef.h"
+#include "app_water_control.h"
+#include "bsp_water.h"
+#include "bsp_led.h"
+#include "soft_timer.h"
+#include "stdbool.h"
+#include "console_dbg.h"
+#include "soft_timer_config.h"
+#include "app_signals.h"
+
+// Biến trạng thái toàn cục (static để giới hạn phạm vi trong file)
+static app_water_state_t currentState = S_PUMP_OFF;
+
+static bool preWaterUnderLowerSen = false;
+static bool preWaterOverUpperSen  = false;
+
+static void app_control_s_pump_off_update(app_water_control_fsm_evt_t * evt);
+static void app_control_s_pump_off_entry();
+static void  app_control_s_pump_on_update(app_water_control_fsm_evt_t * evt);
+static void app_control_s_pump_on_entry();
+static void app_control_s_pump_on_exit();
+static void  app_control_s_pump_error_update(app_water_control_fsm_evt_t * evt);
+static void app_control_s_pump_error_entry();
+
+// khai báo mảng con trỏ hàm handler tương ứng với trạng thái
+static const app_water_control_fsm_state_handler_t appWaterControlStateHandler[NUM_PUMP_STATES] = {
+		{app_control_s_pump_off_update, app_control_s_pump_off_entry, NULL},
+		{app_control_s_pump_on_update, app_control_s_pump_on_entry, app_control_s_pump_on_exit},
+		{app_control_s_pump_error_update, app_control_s_pump_error_entry, NULL}
+};
+
+#ifdef DEBUG_ENABLE
+static const  char * app_water_state_name[] = {"S_PUMP_OFF","S_PUMP_ON","S_SENSOR_ERROR"};
+#endif
+
+
+
+ static void app_control_s_pump_off_update(app_water_control_fsm_evt_t * evt)
+ {
+
+	 switch (evt->signal)
+	 {
+
+	 case EVT_WATER_LOW:
+		 currentState = S_PUMP_ON;
+		 break;
+	 case EVT_SENSOR_ERROR:
+		 currentState = S_SENSOR_ERROR;
+		 break;
+	 default:
+		 break;
+	 }
+	    DBG(DBG_LEVEL_INFO,"state is %s \r\n", app_water_state_name[currentState]);
+	    return ;
+ }
+void app_control_s_pump_off_entry()
+{
+	 bsp_water_motor_off();
+}
+
+static void app_control_s_pump_on_update(app_water_control_fsm_evt_t * evt)
+ {
+	 switch (evt->signal)
+	 {
+	 case EVT_WATER_TIMEOUT_TIMER_FIRED:
+	 case EVT_SENSOR_ERROR:
+		 currentState = S_SENSOR_ERROR;
+		 break;
+	 case EVT_WATER_HIGH:
+		 currentState = S_PUMP_OFF;
+		 break;
+	 default:
+		 break;
+	 }
+	    DBG(DBG_LEVEL_INFO,"state is %s \r\n", app_water_state_name[currentState]);
+ }
+
+static void app_control_s_pump_on_entry()
+{
+
+	 bsp_water_motor_on();
+	 //bật guard timer
+	 soft_timer_set(SOFT_TIMER_WATER_CONTROL, APP_WATER_CONTROL_GUARD_TIMEOUT, false);
+
+}
+static void app_control_s_pump_on_exit()
+{
+	 bsp_water_motor_off();
+	 soft_timer_stop(SOFT_TIMER_WATER_CONTROL);
+}
+
+
+static void app_control_s_pump_error_update(app_water_control_fsm_evt_t * evt)
+ {
+	 switch (evt->signal)
+	 {
+	 case EVT_LED_BLINK_TIMER_TIMEOUT:
+		 bsp_led_error_toggle();
+		 break;
+	 default:
+		 break;
+	 }
+	    DBG(DBG_LEVEL_INFO,"state is %s \r\n", app_water_state_name[currentState]);
+ }
+static void app_control_s_pump_error_entry()
+{
+	soft_timer_set(SOFT_TIMER_BLINK_LED, APP_WATER_BLINK_PERIOD, true);
+}
+
+// Hàm khởi tạo máy trạng thái
+void app_water_control_init(void) {
+	DBG(DBG_LEVEL_INFO,"Initializing \r\n");
+	bsp_water_init();
+	currentState = S_PUMP_OFF; // Khởi tạo ở trạng thái khởi động
+    bsp_water_motor_off();
+    bsp_led_error_init();
+    bsp_water_error_led_off();
+    DBG(DBG_LEVEL_INFO,"state is %s \r\n", app_water_state_name[currentState]);
+}
+
+// Hàm lấy sự kiện từ ngõ vào, mỗi lần chỉ lấy 1 sự kiện
+//trả về true nếu có sự kiện
+
+static bool  app_water_control_fsm_get_event(app_water_control_fsm_evt_t *evt)
+{
+	bool waterUnderLowerSen = (WATER_UNDER == bsp_water_lower_sensor_status());
+	bool waterOverUpperSen  = (WATER_OVER == bsp_water_upper_sensor_status());
+	bool ret = false;
+
+	if (waterUnderLowerSen != preWaterUnderLowerSen)
+	{
+		if (waterUnderLowerSen)
+		{
+				if (waterOverUpperSen)
+				{
+					evt->signal = EVT_SENSOR_ERROR;
+					DBG(DBG_LEVEL_INFO,"signal %s \r\n", "EVT_SENSOR_ERROR");
+
+				}
+				else
+				{
+					DBG(DBG_LEVEL_INFO,"signal %s \r\n", "EVT_WATER_LOW");
+
+					evt->signal = EVT_WATER_LOW;
+				}
+		}
+
+		else
+			{
+				DBG(DBG_LEVEL_INFO,"signal %s \r\n", "EVT_WATER_NOT_LOW");
+				evt->signal = EVT_WATER_NOT_LOW;
+
+			}
+		ret = true;
+	}
+	else if (waterOverUpperSen != preWaterOverUpperSen)
+	{
+
+		if (waterOverUpperSen)
+			{
+			if (waterUnderLowerSen)
+			{
+				DBG(DBG_LEVEL_INFO,"signal %s \r\n", "EVT_SENSOR_ERROR");
+				evt->signal = EVT_SENSOR_ERROR;
+			}
+			else
+			{
+				DBG(DBG_LEVEL_INFO,"signal %s \r\n", "EVT_WATER_HIGH");
+				evt->signal = EVT_WATER_HIGH;
+			}
+			}
+		else
+			{
+				DBG(DBG_LEVEL_INFO,"signal %s \r\n", "EVT_WATER_NOT_HIGH");
+				evt->signal = EVT_WATER_NOT_HIGH;
+			}
+		ret = true;
+	}
+	else if (soft_timer_is_overflow(SOFT_TIMER_WATER_CONTROL))
+	{
+		soft_timer_clear_flag(SOFT_TIMER_WATER_CONTROL);
+		DBG(DBG_LEVEL_INFO,"signal %s \r\n", "timer timeout EVT_SENSOR_ERROR");
+		evt->signal = EVT_SENSOR_ERROR;
+		ret = true;
+	}
+	else if (soft_timer_is_overflow(SOFT_TIMER_BLINK_LED))
+	{
+		soft_timer_clear_flag(SOFT_TIMER_BLINK_LED);
+		DBG(DBG_LEVEL_INFO,"signal %s \r\n", "timer timeout EVT_SENSOR_ERROR");
+		evt->signal = EVT_LED_BLINK_TIMER_TIMEOUT;
+		ret = true;
+	}
+	preWaterUnderLowerSen = waterUnderLowerSen;
+	preWaterOverUpperSen = waterOverUpperSen;
+	return ret;
+}
+void app_water_control_fsm_update(app_water_control_fsm_evt_t *evt) {
+	uint32_t preState = currentState;
+
+	if (currentState < NUM_PUMP_STATES)
+	{
+		appWaterControlStateHandler[currentState].update_handler(evt);
+		if (currentState != preState)
+		{
+			if (NULL != appWaterControlStateHandler[preState].exit_handler) appWaterControlStateHandler[preState].exit_handler();
+			if (NULL != appWaterControlStateHandler[currentState].entry_handler) appWaterControlStateHandler[currentState].entry_handler();
+
+		}
+	}
+
+}
+
+
+void app_water_control_update(void)
+{
+	app_water_control_fsm_evt_t evt;
+	if (app_water_control_fsm_get_event(&evt))	app_water_control_fsm_update(&evt);
+}

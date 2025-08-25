@@ -1,0 +1,28 @@
+/*
+ * soft_timer.h
+ *
+ *  Created on: Aug 9, 2025
+ *      Author: Admin
+ */
+
+#ifndef MIDDLEWARE_SOFTTIMER_SOFT_TIMER_H_
+#define MIDDLEWARE_SOFTTIMER_SOFT_TIMER_H_
+
+typedef void (*soft_timer_callback) (void);
+
+
+enum
+{
+  SCH_TIMER_NONE = 0,
+  SCH_TIMER_MONO,
+  SCH_TIMER_PERIODIC
+} ;
+
+typedef struct softTimer_t
+{
+  uint32_t                		timerType;
+  uint32_t                      timerPeriodInMS;
+  soft_timer_callback           timerCallbackFunction;
+} softTimer_t;
+
+#endif /* MIDDLEWARE_SOFTTIMER_SOFT_TIMER_H_ */

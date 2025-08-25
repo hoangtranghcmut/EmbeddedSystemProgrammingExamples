@@ -1,0 +1,40 @@
+/*
+ * bsp_timer.c
+ *
+ *  Created on: Aug 10, 2025
+ *      Author: Admin
+ */
+#include "board.h"
+#include <stdint.h>
+#include "soft_timer.h"
+#include "error_codes.h"
+#include "scheduler.h"
+#include "stm32f4xx.h"
+
+uint32_t soft_timer_init_systick(void) {
+    // Tính giá trị reload cho SysTick để đạt chu kỳ 1ms
+    uint32_t reload_value = (CPU_CLOCK_HZ / 1000) - 1; // 1ms = 1/1000 giây
+
+    // Kiểm tra nếu reload_value hợp lệ (phải nhỏ hơn 0xFFFFFF vì thanh ghi SysTick 24-bit)
+    if (reload_value > 0xFFFFFF) {
+        return ERROR_NOT_SUPPORTED; // Lỗi: Tần số CPU quá cao
+    }
+
+    // Cấu hình SysTick
+    SysTick->LOAD = reload_value; // Đặt giá trị reload
+    SysTick->VAL = 0; // Xóa giá trị hiện tại
+    SysTick->CTRL = SysTick_CTRL_CLKSOURCE_Msk | // Sử dụng clock CPU
+                    SysTick_CTRL_TICKINT_Msk |   // Bật ngắt SysTick
+                    SysTick_CTRL_ENABLE_Msk;     // Bật timer
+
+    return ERROR_OK; // Thành công
+}
+
+/**
+  * @brief This function handles System tick timer.
+  */
+void SysTick_Handler(void)
+{
+	scheduler_systick_int_handler();
+	soft_timer_update();
+}

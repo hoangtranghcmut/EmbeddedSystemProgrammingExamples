@@ -1,0 +1,26 @@
+/*
+ * soft_timer.h
+ *
+ *  Created on: Aug 9, 2025
+ *      Author: Admin
+ */
+
+#ifndef MIDDLEWARE_SOFTTIMER_SOFT_TIMER_H_
+#define MIDDLEWARE_SOFTTIMER_SOFT_TIMER_H_
+
+#include "stdint.h"
+#include "stdbool.h"
+typedef void (*soft_timer_callback) (void);
+
+
+
+
+typedef struct softTimer_t
+{
+  uint32_t                		timerCounterInMs;
+  uint32_t                      timerPeriodInMS;
+  soft_timer_callback           timerCallbackFunction;
+  bool							timerOverFlow;
+} softTimer_t;
+
+#endif /* MIDDLEWARE_SOFTTIMER_SOFT_TIMER_H_ */

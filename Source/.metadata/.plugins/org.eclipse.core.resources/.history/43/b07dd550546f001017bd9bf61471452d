@@ -1,0 +1,96 @@
+/**
+ * @file bsp_uart.c
+ * @brief UART console driver for STM32F4 using CMSIS.
+ *
+ * @details
+ * This module provides low-level functions for UART-based console input/output
+ * on STM32F4 microcontrollers. It uses CMSIS register-level access to transmit
+ * and receive characters via a designated USART instance (typically USART1).
+ *
+ * Features:
+ * - Simple `console_putchar()` and `console_getchar()` for character I/O
+ * - Blocking transmission and reception using TXE/RXNE flags
+ * - Lightweight implementation suitable for bare-metal or RTOS environments
+ *
+ * @section Dependencies Dependencies
+ * - STM32F4 CMSIS headers (e.g., stm32f4xx.h)
+ * - `bsp_usart.h` for configuration and `CONSOLE_USART` macro
+ * - `error_codes.h` for return status definitions
+ *
+ * @section Limitations Limitations
+ * - Blocking behavior (waits until transmission/reception completes)
+ * - No support for interrupt or DMA-based UART communication
+ * - Only single-character I/O (not suitable for bulk transfer)
+ *
+ * @author Admin
+ * @date 2025-08-02
+ * @version 1.0.0
+ *
+ * @note Make sure `CONSOLE_USART` is defined appropriately before using.
+ */
+
+#include "bsp_usart.h"
+#include "stddef.h"
+#include "error_codes.h"
+#include "stm32f4xx.h"  // Required for register access
+
+/**
+ * @brief Transmits a single character via the console USART.
+ *
+ * @details
+ * This function checks if the USART transmit data register is empty (TXE),
+ * writes the character to the data register, and waits until transmission
+ * is complete (TC). It uses blocking behavior.
+ *
+ * @param c The character to be sent over UART.
+ *
+ * @return ERROR_OK if the character is transmitted successfully,
+ *         ERROR_FAIL if the transmit register is not ready.
+ *
+ * @note Assumes that the USART peripheral (e.g., USART1) is already initialized.
+ * @warning This function blocks until transmission is complete.
+ */
+uint32_t console_putchar(char c)
+{
+    // Check if USART is ready to transmit
+    if (!(CONSOLE_USART->SR & USART_SR_TXE))
+        return ERROR_FAIL;
+
+    // Send character
+    CONSOLE_USART->DR = (uint16_t)c;
+
+    // Wait for transmission complete
+    while (!(CONSOLE_USART->SR & USART_SR_TC));
+
+    return ERROR_OK;
+}
+
+/**
+ * @brief Receives a single character from the console USART.
+ *
+ * @details
+ * This function checks if data is available in the USART receive data register
+ * (RXNE). If so, it reads the character and stores it in the provided pointer.
+ *
+ * @param c Pointer to a character variable where the received byte will be stored.
+ *
+ * @return ERROR_OK if a character is received successfully,
+ *         ERROR_FAIL if no data is available or if the pointer is NULL.
+ *
+ * @note Assumes that the USART peripheral (e.g., USART1) is already initialized.
+ * @warning This function does not block; it will return immediately if no data is available.
+ */
+uint32_t console_getchar(char *c)
+{
+    if (c == NULL)
+        return ERROR_FAIL;
+
+    // Check if data is available
+    if (!(CONSOLE_USART->SR & USART_SR_RXNE))
+        return ERROR_FAIL;
+
+    // Read character
+    *c = (char)(CONSOLE_USART->DR & 0xFF);
+
+    return ERROR_OK;
+}

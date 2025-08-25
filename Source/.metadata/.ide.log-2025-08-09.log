@@ -1,0 +1,104 @@
+2025-08-09 08:40:07,904 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: Native resources unavailable
+2025-08-09 08:40:07,909 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.getScreenImOn(Native Method)
+2025-08-09 08:40:07,910 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.updateGC(WWindowPeer.java:566)
+2025-08-09 08:40:07,912 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+2025-08-09 08:40:07,915 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2025-08-09 08:40:07,917 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2025-08-09 08:40:07,918 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2025-08-09 08:40:07,920 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2025-08-09 08:40:07,923 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2025-08-09 08:40:07,926 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2025-08-09 08:40:07,928 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2025-08-09 08:40:07,929 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2025-08-09 08:40:07,932 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2025-08-09 08:40:07,933 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2025-08-09 08:40:07,934 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2025-08-09 08:40:07,936 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2025-08-09 08:40:07,938 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2025-08-09 08:40:07,939 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2025-08-09 08:40:07,940 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2025-08-09 08:40:07,942 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2025-08-09 08:40:07,943 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-08-09 08:50:51,871 [INFO] WebApp:194 - Connection lost
+2025-08-09 08:50:52,112 [INFO] WebApp:191 - Connection restablished
+2025-08-09 08:54:04,900 [INFO] WebApp:194 - Connection lost
+2025-08-09 08:56:56,747 [INFO] WebApp:191 - Connection restablished
+2025-08-09 08:56:58,869 [INFO] WebApp:194 - Connection lost
+2025-08-09 08:56:59,006 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:15:23,901 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:15:24,653 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:15:59,897 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:16:00,191 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:19:03,414 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:19:03,960 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:20:05,420 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:20:05,728 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:23:11,892 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:23:12,160 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:24:40,404 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:24:40,617 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:25:10,901 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:25:11,153 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:25:44,904 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:25:45,130 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:26:36,410 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:26:36,669 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:27:55,892 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:27:56,311 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:37:17,406 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:37:17,674 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:37:48,393 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:37:48,697 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:38:55,407 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:38:55,640 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:39:13,406 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:39:13,597 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:46:04,394 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:46:04,676 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:46:35,430 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:46:41,801 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:46:47,402 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:46:47,674 [INFO] WebApp:191 - Connection restablished
+2025-08-09 10:59:25,903 [INFO] WebApp:194 - Connection lost
+2025-08-09 10:59:26,208 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:00:36,919 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:00:37,274 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:01:24,912 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:01:25,180 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:02:03,897 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:02:04,799 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:05:31,908 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:05:32,092 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:09:46,901 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:09:47,143 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:10:17,399 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:10:17,683 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:15:07,413 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:15:07,645 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:22:00,406 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:22:00,698 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:30:07,880 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:30:08,430 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:32:52,408 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:32:52,737 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:33:22,907 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:33:23,122 [INFO] WebApp:191 - Connection restablished
+2025-08-09 11:35:58,897 [INFO] WebApp:194 - Connection lost
+2025-08-09 11:35:59,202 [INFO] WebApp:191 - Connection restablished
+2025-08-09 12:27:44,891 [INFO] WebApp:194 - Connection lost
+2025-08-09 12:27:45,150 [INFO] WebApp:191 - Connection restablished
+2025-08-09 12:27:51,898 [INFO] WebApp:194 - Connection lost
+2025-08-09 12:27:52,100 [INFO] WebApp:191 - Connection restablished
+2025-08-09 12:28:22,400 [INFO] WebApp:194 - Connection lost
+2025-08-09 12:28:22,623 [INFO] WebApp:191 - Connection restablished
+2025-08-09 12:51:18,907 [INFO] WebApp:194 - Connection lost
+2025-08-09 12:51:19,155 [INFO] WebApp:191 - Connection restablished
+2025-08-09 13:10:07,407 [INFO] WebApp:194 - Connection lost
+2025-08-09 13:10:07,662 [INFO] WebApp:191 - Connection restablished
+2025-08-09 13:31:16,044 [INFO] WebApp:194 - Connection lost
+2025-08-09 13:31:16,228 [INFO] WebApp:191 - Connection restablished
+2025-08-09 13:31:18,674 [INFO] WebApp:194 - Connection lost
+2025-08-09 13:31:18,807 [INFO] WebApp:191 - Connection restablished
+2025-08-09 13:31:21,903 [INFO] WebApp:194 - Connection lost
+2025-08-09 13:31:22,027 [INFO] WebApp:191 - Connection restablished
+2025-08-09 15:11:52,385 [INFO] WebApp:403 - JxBrowser engine has been closed 

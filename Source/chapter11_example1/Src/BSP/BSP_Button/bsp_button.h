@@ -1,0 +1,22 @@
+/*
+ * bsp_button.h
+ *
+ *  Created on: Aug 14, 2025
+ *      Author: Admin
+ */
+
+#ifndef _BSP_BUTTON_H_
+#define _BSP_BUTTON_H_
+#include "stdint.h"
+enum {
+	BUTTON_PRESSED = 0,
+	BUTTON_RELEASE
+};
+
+void 		app_button_update();
+uint32_t	bsp_button_up_status();
+uint32_t	bsp_button_down_status();
+uint32_t	bsp_button_set_status();
+uint32_t	bsp_button_onoff_status();
+
+#endif /* BSP_BSP_BUTTON_BSP_BUTTON_H_ */

@@ -1,0 +1,181 @@
+/*
+ * app_led7seg.c
+ *
+ *  Created on: Aug 15, 2025
+ *      Author: Admin
+ */
+
+#include "stdint.h"
+#include "fifo.h"
+#include "bsp_led7seg.h"
+#include "app_led7seg.h"
+#include "app_signals.h"
+#include "soft_timer.h"
+#include "soft_timer_config.h"
+#include "error_codes.h"
+#include "console_dbg.h"
+
+
+// Bảng mã 7 đoạn cho số 0-9 (anode chung, thứ tự: dp,g,f,e,d,c,b,a)
+static const uint8_t SEGMENTS[] = {
+    0xC0, // 0
+    0xF9, // 1
+    0xA4, // 2
+    0xB0, // 3
+    0x99, // 4
+    0x92, // 5
+    0x82, // 6
+    0xF8, // 7
+    0x80, // 8
+    0x90  // 9
+};
+static uint32_t	state;
+
+static app_led7seg_t app_led7seg = {
+		.blinkMode = 1,
+		.currentLed = LED7SEG_0,
+		.ledCode = {0x92, 0x87}, // hiển thị St nhấp nháy
+		.ledControl = 1	 // cả hai led đều bật
+};
+
+//lkhai báo bộ đệm chứa dữ liệu cho event FIFO
+static led7seg_fsm_evt_t led7seg_fsm_evt_buffer[LED7SEG_EVT_NUM];
+
+//khởi tạo FIFO ngay lúc khai báo
+Fifo_t app_led7seg_control_evt_fifo = {
+		.p_vBuf = led7seg_fsm_evt_buffer,
+		.ui32Head = 0,
+		.ui32Tail = 0,
+		.ui32End = LED7SEG_EVT_NUM,
+		.uiElementSize = sizeof(led7seg_fsm_evt_t)
+};
+void app_led7seg_init(void)
+{
+	state = S_LED7SEG_OPERATIONAL;
+	soft_timer_set(SOFT_TIMER_BLINK_LED7SEG, APP_LED7SEG_BLINK_INTERVAL, APP_LED7SEG_BLINK_INTERVAL);
+	soft_timer_set(SOFT_TIMER_SCAN_LED7SEG, APP_LED7SEG_SCAN_INTERVAL, APP_LED7SEG_SCAN_INTERVAL);
+	bsp_led7seg_display(LED7SEG_0,app_led7seg.ledCode[LED7SEG_0]); //hiển thị mã cho chữ S
+}
+
+static void led7seg_fsm_operational_handler(led7seg_fsm_evt_t *evt)
+{
+	uint8_t	ui8CurrentLed = app_led7seg.currentLed;
+	switch (evt->signal)
+	{
+	case EVT_LED7SEG_SCAN_TIME:
+		if (LED7SEG_0 == ui8CurrentLed ) ui8CurrentLed = LED7SEG_1;
+		else ui8CurrentLed = LED7SEG_0;
+		bsp_led7seg_turn_off_all();
+
+		if (app_led7seg.ledControl) bsp_led7seg_display(ui8CurrentLed, app_led7seg.ledCode[ui8CurrentLed]);
+		app_led7seg.currentLed = ui8CurrentLed;
+		break;
+
+	case EVT_LED7SEG_BLINK_TIME:
+		if (1 == app_led7seg.blinkMode)
+		{
+			if (1 == app_led7seg.ledControl) app_led7seg.ledControl = 0;
+			else app_led7seg.ledControl = 1;
+		}
+		break;
+	case EVT_LED7SEG_SET_BLINK_MODE:
+		app_led7seg.blinkMode = 1;
+		app_led7seg.ledControl = 1;
+		soft_timer_set(SOFT_TIMER_BLINK_LED7SEG, APP_LED7SEG_BLINK_INTERVAL, APP_LED7SEG_BLINK_INTERVAL);
+		break;
+	case EVT_LED7SEG_SET_NORMAL_MODE:
+		app_led7seg.blinkMode = 0;
+		app_led7seg.ledControl = 1;
+		soft_timer_stop(SOFT_TIMER_BLINK_LED7SEG);
+		break;
+	case EVT_LED7SEG_SET_OFF_MODE:
+		app_led7seg.blinkMode = 0;
+		app_led7seg.ledControl = 0;
+		soft_timer_stop(SOFT_TIMER_BLINK_LED7SEG);
+		soft_timer_stop(SOFT_TIMER_SCAN_LED7SEG);
+		bsp_led7seg_turn_off_all();
+
+		break;
+	default:
+		break;
+	}
+}
+
+void app_led7seg_set_blink_mode()
+{
+	led7seg_fsm_evt_t evt = {.signal = EVT_LED7SEG_SET_BLINK_MODE};
+	fifo_put(&app_control_evt_fifo, &evt);
+}
+void app_led7seg_set_normal_mode()
+{
+	led7seg_fsm_evt_t evt = {.signal = EVT_LED7SEG_SET_NORMAL_MODE};
+	fifo_put(&app_control_evt_fifo, &evt);
+}
+void app_led7seg_set_off_mode()
+{
+	led7seg_fsm_evt_t evt = {.signal = EVT_LED7SEG_SET_OFF_MODE};
+	fifo_put(&app_control_evt_fifo, &evt);
+}
+
+void app_led7seg_set_data(uint8_t ui8Code[2])
+{
+	app_led7seg.ledCode[0] = ui8Code[0];
+	app_led7seg.ledCode[1] = ui8Code[1];
+
+}
+
+
+
+// Hàm hiển thị nhiệt độ trên hai LED 7 đoạn
+void app_led7seg_display_temperature(uint16_t temperature) {
+    uint8_t ui8Code[2];
+
+    // Giới hạn nhiệt độ trong khoảng 0-99
+    if (temperature > 99) {
+        temperature = 99;
+    }
+
+    // Tách chữ số hàng chục và hàng đơn vị
+    uint8_t tens = temperature / 10;   // Chữ số hàng chục
+    uint8_t units = temperature % 10;  // Chữ số hàng đơn vị
+
+    // Gán mã 7 đoạn cho hai LED
+    ui8Code[0] = SEGMENTS[tens];   // Mã cho LED hàng chục
+    ui8Code[1] = SEGMENTS[units];  // Mã cho LED hàng đơn vị
+
+    // Gọi hàm để thiết lập mã 7 đoạn
+    app_led7seg_set_data(ui8Code);
+}
+void app_led7seg_update(void)
+{
+	led7seg_fsm_evt_t evt;
+
+	if (ERROR_OK == fifo_get(&app_control_evt_fifo, &evt))
+	{
+		DBG(DBG_LEVEL_INFO," %s \r\n", "Got event");
+
+		led7seg_fsm_operational_handler(&evt);
+	}
+}
+
+static void app_led7seg_blink_timer_callback()
+{
+	led7seg_fsm_evt_t evt;
+
+		soft_timer_clear_flag(SOFT_TIMER_BLINK_LED7SEG);
+		DBG(DBG_LEVEL_INFO,"signal %s \r\n", "blink timer timeout");
+		evt.signal = EVT_LED7SEG_BLINK_TIME;
+//đưa sự kiện vào bộ đệm
+		fifo_put(&app_led7seg_control_evt_fifo, &evt);
+}
+
+static void app_led7seg_scan_timer_callback()
+{
+	led7seg_fsm_evt_t evt;
+
+		soft_timer_clear_flag(SOFT_TIMER_SCAN_LED7SEG);
+		DBG(DBG_LEVEL_INFO,"signal %s \r\n", "scan timer timeout");
+		evt.signal = EVT_LED7SEG_SCAN_TIME;
+//đưa sự kiện vào bộ đệm
+		fifo_put(&app_led7seg_control_evt_fifo, &evt);
+}

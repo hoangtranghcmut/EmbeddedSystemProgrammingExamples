@@ -1,0 +1,17 @@
+/*
+ * soft_timer_config.h
+ *
+ *  Created on: Aug 9, 2025
+ *      Author: Admin
+ */
+
+#ifndef _SOFT_TIMER_CONFIG_H_
+#define _SOFT_TIMER_CONFIG_H_
+
+enum {
+	SOFT_TIMER_WATER_CONTROL = 0,
+	SOFT_TIMER_BLINK_LED,
+	SOFT_TIMER_MAX_TIMERS
+};
+
+#endif /* MIDDLEWARE_SOFTTIMER_SOFT_TIMER_CONFIG_H_ */

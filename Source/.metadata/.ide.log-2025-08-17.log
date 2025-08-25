@@ -1,0 +1,160 @@
+2025-08-18 00:02:25,559 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,850 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:02:25,953 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-08-18 00:08:45,260 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 890297856 Bytes (1073741824)
+2025-08-18 00:08:46,487 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 914415104 Bytes (1073741824)
+2025-08-18 00:08:48,066 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 978900480 Bytes (1073741824)
+2025-08-18 00:08:48,582 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-18 00:08:48,582 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-18 00:08:48,582 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-18 00:08:48,582 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-18 00:08:48,583 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-18 00:08:48,583 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-18 00:08:48,585 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-08-18 00:08:48,746 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\license.tmp_save
+2025-08-18 00:08:49,132 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\license.tmp
+2025-08-18 00:08:49,272 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\gpio.tmp_save
+2025-08-18 00:08:49,399 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\gpio.tmp
+2025-08-18 00:08:49,674 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_it.c_save
+2025-08-18 00:08:49,930 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_it.c
+2025-08-18 00:08:49,934 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_it.h_save
+2025-08-18 00:08:49,992 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_it.h
+2025-08-18 00:08:50,001 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_hal_msp.c_save
+2025-08-18 00:08:50,125 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_hal_msp.c
+2025-08-18 00:08:50,129 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\system.tmp_save
+2025-08-18 00:08:50,187 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\system.tmp
+2025-08-18 00:08:50,191 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32_assert.h_save
+2025-08-18 00:08:50,256 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32_assert.h
+2025-08-18 00:08:50,270 [INFO] CodeEngine:319 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-08-18 00:08:50,340 [INFO] CodeEngine:343 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_hal_conf.h
+2025-08-18 00:08:50,365 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_PLL_PLLM_CONFIG is not available in your config.xml file
+2025-08-18 00:08:50,365 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_PLL_PLLSOURCE_CONFIG is not available in your config.xml file
+2025-08-18 00:08:50,365 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_ConfigVoltageScaling is not available in your config.xml file
+2025-08-18 00:08:50,370 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2025-08-18 00:08:50,370 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_MCO1Config is not available in your config.xml file
+2025-08-18 00:08:50,370 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_MCO2Config is not available in your config.xml file
+2025-08-18 00:08:50,370 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2025-08-18 00:08:50,370 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2025-08-18 00:08:50,391 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\main.h_save
+2025-08-18 00:08:50,499 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\main.h
+2025-08-18 00:08:50,505 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\main.c_save
+2025-08-18 00:08:50,638 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\main.c
+2025-08-18 00:08:51,009 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 175mS.
+2025-08-18 00:08:51,013 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-08-18 00:08:51,116 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-08-18 00:08:52,452 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1439mS.
+2025-08-18 00:08:52,453 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-08-18 00:08:52,462 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-08-18 00:10:51,146 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 819994312 Bytes (1073741824)
+2025-08-18 00:10:52,343 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 843062984 Bytes (1073741824)
+2025-08-18 00:10:54,596 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 933766856 Bytes (1073741824)
+2025-08-18 00:10:54,971 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-18 00:10:54,971 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-18 00:10:54,971 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-18 00:10:54,971 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-18 00:10:54,971 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-18 00:10:54,972 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-18 00:10:54,974 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-08-18 00:10:55,102 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\license.tmp_save
+2025-08-18 00:10:55,200 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\license.tmp
+2025-08-18 00:10:55,289 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\gpio.tmp_save
+2025-08-18 00:10:55,358 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\gpio.tmp
+2025-08-18 00:10:55,451 [WARN] IPConfigManager:4588 - WARNING: Missing Config File for SYS ip!!
+2025-08-18 00:10:55,610 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_it.c_save
+2025-08-18 00:10:55,693 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_it.c
+2025-08-18 00:10:55,698 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_it.h_save
+2025-08-18 00:10:55,761 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_it.h
+2025-08-18 00:10:55,775 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\system.tmp_save
+2025-08-18 00:10:55,835 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\system.tmp
+2025-08-18 00:10:55,841 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32_assert.h_save
+2025-08-18 00:10:55,898 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32_assert.h
+2025-08-18 00:10:55,905 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_PLL_PLLM_CONFIG is not available in your config.xml file
+2025-08-18 00:10:55,906 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_PLL_PLLSOURCE_CONFIG is not available in your config.xml file
+2025-08-18 00:10:55,906 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_ConfigVoltageScaling is not available in your config.xml file
+2025-08-18 00:10:55,909 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2025-08-18 00:10:55,909 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_MCO1Config is not available in your config.xml file
+2025-08-18 00:10:55,909 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_MCO2Config is not available in your config.xml file
+2025-08-18 00:10:55,909 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2025-08-18 00:10:55,909 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2025-08-18 00:10:55,923 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\main.h_save
+2025-08-18 00:10:55,993 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\main.h
+2025-08-18 00:10:55,997 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\main.c_save
+2025-08-18 00:10:56,099 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\main.c
+2025-08-18 00:10:56,511 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 137mS.
+2025-08-18 00:10:56,514 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-08-18 00:10:56,659 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-08-18 00:10:57,817 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1303mS.
+2025-08-18 00:10:57,820 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-08-18 00:10:57,835 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-08-18 00:37:29,774 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,648 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-08-18 00:37:38,721 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,727 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,727 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,727 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,727 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,728 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,728 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,728 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,728 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,729 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,729 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,729 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,729 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,729 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:38,766 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-08-18 00:37:56,694 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 912891776 Bytes (1073741824)
+2025-08-18 00:37:58,427 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 936486784 Bytes (1073741824)
+2025-08-18 00:38:00,769 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 721651632 Bytes (1073741824)
+2025-08-18 00:38:00,966 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2025-08-18 00:38:00,966 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2025-08-18 00:38:00,966 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2025-08-18 00:38:00,966 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2025-08-18 00:38:00,966 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: USART
+2025-08-18 00:38:00,968 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2025-08-18 00:38:00,969 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.2\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.1.202504091515\\db\
+2025-08-18 00:38:01,057 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\license.tmp_save
+2025-08-18 00:38:01,369 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\license.tmp
+2025-08-18 00:38:01,493 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\gpio.tmp_save
+2025-08-18 00:38:01,679 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\gpio.tmp
+2025-08-18 00:38:01,830 [WARN] IPConfigManager:4588 - WARNING: Missing Config File for SYS ip!!
+2025-08-18 00:38:02,011 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_it.c_save
+2025-08-18 00:38:02,354 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\stm32f4xx_it.c
+2025-08-18 00:38:02,359 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_it.h_save
+2025-08-18 00:38:02,474 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32f4xx_it.h
+2025-08-18 00:38:02,486 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\system.tmp_save
+2025-08-18 00:38:02,578 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\MXTmpFiles\system.tmp
+2025-08-18 00:38:02,582 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32_assert.h_save
+2025-08-18 00:38:02,659 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\stm32_assert.h
+2025-08-18 00:38:02,670 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_PLL_PLLM_CONFIG is not available in your config.xml file
+2025-08-18 00:38:02,670 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_PLL_PLLSOURCE_CONFIG is not available in your config.xml file
+2025-08-18 00:38:02,670 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_ConfigVoltageScaling is not available in your config.xml file
+2025-08-18 00:38:02,672 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_ClockConfig is not available in your config.xml file
+2025-08-18 00:38:02,672 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_MCO1Config is not available in your config.xml file
+2025-08-18 00:38:02,672 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_MCO2Config is not available in your config.xml file
+2025-08-18 00:38:02,672 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_interrupt_Time_SYSTICK_Config is not available in your config.xml file
+2025-08-18 00:38:02,672 [WARN] IPConfigManager:3217 - Warning: the RefConfig RCC_SYSTICK_CONFIG is not available in your config.xml file
+2025-08-18 00:38:02,690 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\main.h_save
+2025-08-18 00:38:02,795 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Inc\main.h
+2025-08-18 00:38:02,799 [INFO] CodeEngine:263 - oldGeneratedFile, D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\main.c_save
+2025-08-18 00:38:02,917 [INFO] CodeEngine:287 - Generated code: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter11_example1\Core\Src\main.c
+2025-08-18 00:38:03,316 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 125mS.
+2025-08-18 00:38:03,320 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0.1-B1
+2025-08-18 00:38:03,487 [INFO] ConfigFileManager:1590 - The Die is : DIE413
+2025-08-18 00:38:04,511 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1191mS.
+2025-08-18 00:38:04,512 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2025-08-18 00:38:04,521 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2025-08-18 00:38:37,981 [INFO] Gpio:277 - dependency for GPIO [ADC1, USART1]
