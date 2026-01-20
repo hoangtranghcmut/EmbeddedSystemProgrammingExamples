@@ -16,5 +16,4 @@ void bsp_rtc1_set_time(DS3234_Time_t* time);
 void bsp_rtc1_get_time(DS3234_Time_t* time);
 void bsp_rtc2_set_time(DS3234_Time_t* time);
 void bsp_rtc2_get_time(DS3234_Time_t* time);
-void bsp_rtc_RTC2_trigger_callback(void);
 #endif /* BSP_BSP_RTC_BSP_RTC_H_ */

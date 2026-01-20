@@ -31,8 +31,8 @@ Src/BSP/BSP_Led \
 Src/BSP/BSP_RTC \
 Src/BSP/BSP_USART \
 Src/Driver/Components/Usart \
-Src/Driver/Components/dio \
-Src/Driver/Components/spi \
+Src/Driver/Components/dio/stm32 \
+Src/Driver/Components/spi/stm32 \
 Src/Driver/Devices/ds3234 \
 Src/MiddleWare/Common \
 Src/MiddleWare/Console \

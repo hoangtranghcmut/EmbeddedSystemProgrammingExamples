@@ -1,11 +1,11 @@
-11:52:57 **** Clean-only build of configuration Debug for project chapter9_example2 ****
+15:05:21 **** Clean-only build of configuration Debug for project chapter9_example2 ****
 make -j12 clean 
 rm -rf ./Src/MiddleWare/container/ring_buf.cyclo ./Src/MiddleWare/container/ring_buf.d ./Src/MiddleWare/container/ring_buf.o ./Src/MiddleWare/container/ring_buf.su
 rm -rf ./Src/MiddleWare/Console/console.cyclo ./Src/MiddleWare/Console/console.d ./Src/MiddleWare/Console/console.o ./Src/MiddleWare/Console/console.su
 rm -rf ./Src/MiddleWare/Common/atomic.cyclo ./Src/MiddleWare/Common/atomic.d ./Src/MiddleWare/Common/atomic.o ./Src/MiddleWare/Common/atomic.su
 rm -rf ./Src/Driver/Devices/ds3234/ds3234.cyclo ./Src/Driver/Devices/ds3234/ds3234.d ./Src/Driver/Devices/ds3234/ds3234.o ./Src/Driver/Devices/ds3234/ds3234.su
-rm -rf ./Src/Driver/Components/spi/spi_io.cyclo ./Src/Driver/Components/spi/spi_io.d ./Src/Driver/Components/spi/spi_io.o ./Src/Driver/Components/spi/spi_io.su
-rm -rf ./Src/Driver/Components/dio/do.cyclo ./Src/Driver/Components/dio/do.d ./Src/Driver/Components/dio/do.o ./Src/Driver/Components/dio/do.su
+rm -rf ./Src/Driver/Components/spi/stm32/spi_io.cyclo ./Src/Driver/Components/spi/stm32/spi_io.d ./Src/Driver/Components/spi/stm32/spi_io.o ./Src/Driver/Components/spi/stm32/spi_io.su
+rm -rf ./Src/Driver/Components/dio/stm32/do.cyclo ./Src/Driver/Components/dio/stm32/do.d ./Src/Driver/Components/dio/stm32/do.o ./Src/Driver/Components/dio/stm32/do.su
 rm -rf ./Src/Driver/Components/Usart/usart_io.cyclo ./Src/Driver/Components/Usart/usart_io.d ./Src/Driver/Components/Usart/usart_io.o ./Src/Driver/Components/Usart/usart_io.su
 rm -rf ./Src/BSP/BSP_USART/bsp_uart.cyclo ./Src/BSP/BSP_USART/bsp_uart.d ./Src/BSP/BSP_USART/bsp_uart.o ./Src/BSP/BSP_USART/bsp_uart.su
 rm -rf ./Src/BSP/BSP_RTC/bsp_rtc.cyclo ./Src/BSP/BSP_RTC/bsp_rtc.d ./Src/BSP/BSP_RTC/bsp_rtc.o ./Src/BSP/BSP_RTC/bsp_rtc.su
@@ -17,5 +17,5 @@ rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main
 rm -rf chapter9_example2.elf chapter9_example2.hex chapter9_example2.list chapter9_example2.map default.size.stdout
  
 
-11:52:58 Build Finished. 0 errors, 0 warnings. (took 417ms)
+15:05:22 Build Finished. 0 errors, 0 warnings. (took 667ms)
 

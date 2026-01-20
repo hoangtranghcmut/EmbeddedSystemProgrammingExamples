@@ -1,4 +1,4 @@
-11:52:55 **** Clean-only build of configuration Debug for project chapter11_example1 ****
+15:05:14 **** Clean-only build of configuration Debug for project chapter11_example1 ****
 make -j12 clean 
 rm -rf ./Src/MiddleWare/scheduler/scheduler.cyclo ./Src/MiddleWare/scheduler/scheduler.d ./Src/MiddleWare/scheduler/scheduler.o ./Src/MiddleWare/scheduler/scheduler.su
 rm -rf ./Src/MiddleWare/container/fifo.cyclo ./Src/MiddleWare/container/fifo.d ./Src/MiddleWare/container/fifo.o ./Src/MiddleWare/container/fifo.su ./Src/MiddleWare/container/ring_buf.cyclo ./Src/MiddleWare/container/ring_buf.d ./Src/MiddleWare/container/ring_buf.o ./Src/MiddleWare/container/ring_buf.su
@@ -27,5 +27,5 @@ rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main
 rm -rf chapter11_example1.elf chapter11_example1.hex chapter11_example1.list chapter11_example1.map default.size.stdout
  
 
-11:52:56 Build Finished. 0 errors, 0 warnings. (took 564ms)
+15:05:15 Build Finished. 0 errors, 0 warnings. (took 864ms)
 

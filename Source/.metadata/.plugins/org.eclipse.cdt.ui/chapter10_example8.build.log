@@ -1,4 +1,4 @@
-11:52:55 **** Clean-only build of configuration Debug for project chapter10_example8 ****
+15:05:13 **** Clean-only build of configuration Debug for project chapter10_example8 ****
 make -j12 clean 
 rm -rf ./Src/MiddleWare/container/fifo.cyclo ./Src/MiddleWare/container/fifo.d ./Src/MiddleWare/container/fifo.o ./Src/MiddleWare/container/fifo.su ./Src/MiddleWare/container/ring_buf.cyclo ./Src/MiddleWare/container/ring_buf.d ./Src/MiddleWare/container/ring_buf.o ./Src/MiddleWare/container/ring_buf.su
 rm -rf ./Src/MiddleWare/SoftTimer/soft_timer.cyclo ./Src/MiddleWare/SoftTimer/soft_timer.d ./Src/MiddleWare/SoftTimer/soft_timer.o ./Src/MiddleWare/SoftTimer/soft_timer.su
@@ -20,5 +20,5 @@ rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main
 rm -rf chapter10_example8.elf chapter10_example8.hex chapter10_example8.list chapter10_example8.map default.size.stdout
  
 
-11:52:55 Build Finished. 0 errors, 0 warnings. (took 457ms)
+15:05:14 Build Finished. 0 errors, 0 warnings. (took 469ms)
 

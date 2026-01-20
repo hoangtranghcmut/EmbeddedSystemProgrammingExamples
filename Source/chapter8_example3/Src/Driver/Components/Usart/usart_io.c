@@ -11,6 +11,8 @@
 #include "stdio.h"
 #include "atomic.h"
 
+
+
 // Kích hoạt UART
 void uart_io_active(UsartIo_t * me) {
     if ((me->hUsart != NULL) && (!me->active)) {

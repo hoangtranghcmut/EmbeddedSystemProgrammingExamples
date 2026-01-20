@@ -1,0 +1,45 @@
+{
+    "version": "2.0.0",
+    "windows": {
+        "options": {
+            "shell": {
+                "executable": "cmd.exe",
+                "args": [
+                    "/d",
+                    "/c"
+                ]
+            }
+        }
+    },
+    "tasks": [
+        {
+            "label": "Compile",
+            "type": "shell",
+            "command": "your_compile_command_here",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run Zazu",
+            "type": "process",
+            "command": "${command:zazu.debugZazuCommand}",
+            "args": [
+                "${workspaceRoot}"
+            ],
+            "problemMatcher": [],
+            "dependsOn": [],
+            "options": {
+                "localHostPort": "3344",
+                "internalPort": "3355",
+                "boardName": "STM32F746G_DISCO",
+                "boardVisuPath": "${config:ac6-zazu.installDir}\\templates",
+                "renodePath": "${config:ac6-zazu.installDir}\\renode\\bin\\Renode.exe"
+            },
+            "group": {
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -2720,3 +2720,1243 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-25 11:51:23.111
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-08-26 15:04:04.775 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-08-26 15:04:09.334
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-26 15:04:13.762
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-26 15:04:13.766
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-26 15:04:23.819
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-08-27 10:25:30.510 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-08-27 10:25:34.119
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-08-27 10:25:39.040
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-08-27 10:25:39.045
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-08-27 10:25:52.238
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-08 16:07:51.759 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-08 16:07:57.469
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-08 16:07:57.469
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-08 16:08:10.252
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-09-15 14:28:03.574 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-15 14:28:29.506
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-15 14:28:29.508
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-15 14:28:42.577
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 15:06:27.926
+!MESSAGE Indexed 'chapter5_example1' (4 sources, 55 headers) in 0.583 sec: 1,991 declarations; 2,972 references; 0 unresolved inclusions; 5 syntax errors; 115 unresolved names (2.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 15:07:27.356
+!MESSAGE Indexed 'chapter5_example1' (4 sources, 62 headers) in 0.937 sec: 3,290 declarations; 5,730 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.022%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 15:08:13.564
+!MESSAGE Indexed 'chapter5_example1' (4 sources, 55 headers) in 0.242 sec: 1,991 declarations; 2,972 references; 0 unresolved inclusions; 5 syntax errors; 115 unresolved names (2.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-15 15:08:26.139
+!MESSAGE Indexed 'chapter5_example1' (4 sources, 62 headers) in 0.838 sec: 3,291 declarations; 5,748 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.022%)
+!SESSION 2025-09-29 07:13:36.479 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-29 07:13:47.222
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-29 07:13:47.224
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-29 07:14:00.309
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-29 07:17:58.447
+!MESSAGE Indexed 'chapter6_example1' (8 sources, 119 headers) in 5.39 sec: 21,701 declarations; 36,405 references; 13 unresolved inclusions; 122 syntax errors; 977 unresolved names (1.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-29 07:26:53.540
+!MESSAGE Indexed 'chapter6_example2' (3 sources, 53 headers) in 0.266 sec: 1,954 declarations; 2,863 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-09-29 07:31:48.100
+!MESSAGE Indexed 'chapter6_example2' (19 sources, 81 headers) in 2.32 sec: 4,314 declarations; 18,192 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+!SESSION 2025-09-29 15:27:29.775 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-09-29 15:27:39.866
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-09-29 15:27:39.868
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-09-29 15:27:51.017
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.ui 4 0 2025-09-29 17:25:44.025
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setVisible(boolean)" because the return value of "org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.getShell()" is null
+	at org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.updatePlacementAndVisibility(FindReplaceOverlay.java:844)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2025-10-02 09:20:26.407 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-10-02 09:20:28.516
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-02 09:20:32.894
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-02 09:20:32.899
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-02 09:20:42.149
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-10-06 11:29:41.522 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-06 11:29:47.238
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-06 11:29:47.250
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-06 11:30:00.044
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 11:39:06.833
+!MESSAGE Indexed 'chapter_example1' (19 sources, 81 headers) in 3.02 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 11:41:46.560
+!MESSAGE Indexed 'chapter7_example1' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 11:43:10.901
+!MESSAGE Indexed 'chapter7_example1' (19 sources, 81 headers) in 2.73 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 11:48:10.550
+!MESSAGE Indexed 'chapter7_example1' (11 sources, 74 headers) in 0.649 sec: 4,722 declarations; 15,523 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0099%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 11:53:08.792
+!MESSAGE Indexed 'chapter_example2' (19 sources, 81 headers) in 3.18 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 12:08:49.238
+!MESSAGE Indexed 'chapter7_example3' (19 sources, 81 headers) in 2.61 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 12:23:58.284
+!MESSAGE Indexed 'chapter7_example3' (12 sources, 120 headers) in 3.71 sec: 12,233 declarations; 38,488 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.47%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 12:25:35.841
+!MESSAGE Indexed 'chapter7_example3' (12 sources, 120 headers) in 3.37 sec: 12,235 declarations; 38,488 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.47%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 12:26:48.568
+!MESSAGE Indexed 'chapter7_example3' (19 sources, 81 headers) in 1.64 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-10-06 14:36:27.439
+!MESSAGE Indexed 'chapter7_example4' (19 sources, 81 headers) in 8.42 sec: 4,314 declarations; 18,192 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0089%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-10-06 15:29:34.290
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter7_example4\Debug\chapter7_example4.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-10-06 15:29:34.291
+!MESSAGE D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter7_example4\Debug\chapter7_example4.elf not found
+!STACK 0
+java.io.FileNotFoundException: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter7_example4\Debug\chapter7_example4.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 0 2025-10-06 17:19:17.704
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setVisible(boolean)" because the return value of "org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.getShell()" is null
+	at org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.updatePlacementAndVisibility(FindReplaceOverlay.java:844)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2025-10-13 16:05:47.937 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-13 16:05:58.521
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-13 16:05:58.523
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-13 16:06:15.371
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-10-14 01:25:21.311 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-10-14 01:25:29.297
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-10-14 01:25:29.298
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-10-14 01:25:38.877
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-11-03 15:50:39.174 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-03 15:50:48.242
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-03 15:50:48.244
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-03 15:51:03.918
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-11-10 15:40:22.789 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-11-10 15:40:31.130
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-10 15:40:36.016
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-10 15:40:36.016
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-10 15:40:51.259
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2025-11-13 11:18:14.248 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-11-13 11:18:25.526
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-13 11:18:29.668
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-13 11:18:29.679
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-13 11:18:48.749
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2025-11-16 08:18:45.103 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-16 08:19:17.605
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-16 08:19:17.608
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-16 08:19:39.185
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2025-11-16 08:21:51.509
+!MESSAGE Connection to https://download.eclipse.org/tools/cdt/releases/latest/p2.index failed on Remote host terminated the handshake. Retry attempt 0 started
+!STACK 0
+javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake
+	at java.net.http/jdk.internal.net.http.common.SSLTube.checkForHandshake(SSLTube.java:595)
+	at java.net.http/jdk.internal.net.http.common.SSLTube$SSLTubeFlowDelegate.checkForHandshake(SSLTube.java:156)
+	at java.net.http/jdk.internal.net.http.common.SSLFlowDelegate$Reader.errorCommon(SSLFlowDelegate.java:369)
+	at java.net.http/jdk.internal.net.http.common.SubscriberWrapper.onError(SubscriberWrapper.java:412)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadSubscription.signalCompletion(SocketTube.java:645)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:829)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
+	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
+	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1467)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1412)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1412)
+Caused by: java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:401)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:434)
+	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
+	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
+	... 11 more
+!SESSION 2025-11-17 23:29:15.476 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-17 23:29:48.913
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-17 23:29:48.915
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-17 23:29:57.528
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-11-24 13:06:52.039 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-24 13:07:09.317
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-24 13:07:09.319
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-24 13:07:26.977
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-24 13:08:07.204
+!MESSAGE Indexed 'chapter12_example1' (27 sources, 145 headers) in 4.65 sec: 13,481 declarations; 40,728 references; 4 unresolved inclusions; 820 syntax errors; 2,012 unresolved names (3.6%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-11-24 13:25:40.553
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2025-11-24 13:25:40.553
+!MESSAGE Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 0
+java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-24 14:23:00.024
+!MESSAGE Indexed 'chapter12_example2' (20 sources, 82 headers) in 6.88 sec: 5,517 declarations; 31,214 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0054%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2025-11-24 15:08:17.950
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-11-24 15:20:41.846
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2025-11-24 15:20:41.847
+!MESSAGE Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 0
+java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.cdt.ui 4 4 2025-11-24 15:34:04.029
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/chapter12_example2/Src/Driver/Components/Usart/usart_io.c)[368]: java.lang.Exception: Resource '/chapter12_example2/Src/Driver/Components/Usart/usart_io.c' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1026)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.openErrorInEditor(BuildConsolePage.java:620)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.showError(BuildConsolePage.java:591)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.setDocument(BuildConsolePage.java:166)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.selectionChanged(BuildConsolePage.java:433)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2025-11-24 15:34:04.032
+!MESSAGE Resource '/chapter12_example2/Src/Driver/Components/Usart/usart_io.c' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/chapter12_example2/Src/Driver/Components/Usart/usart_io.c' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Resource.findMarkers(Resource.java:1026)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.openErrorInEditor(BuildConsolePage.java:620)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.showError(BuildConsolePage.java:591)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.setDocument(BuildConsolePage.java:166)
+	at org.eclipse.cdt.internal.ui.buildconsole.BuildConsolePage.selectionChanged(BuildConsolePage.java:433)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-11-24 15:36:00.959
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1054)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1257)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 10004 2025-11-24 15:36:00.959
+!MESSAGE Failed to execute MI command:
+target remote localhost:61234
+
+Error message from debugger back end:
+localhost:61234: Connection timed out.
+!STACK 0
+java.lang.Exception: localhost:61234: Connection timed out.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+
+!ENTRY org.eclipse.ui 4 0 2025-11-24 15:38:48.502
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setVisible(boolean)" because the return value of "org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.getShell()" is null
+	at org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.updatePlacementAndVisibility(FindReplaceOverlay.java:844)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.237
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.238
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.238
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.239
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.240
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.240
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.241
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.241
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.244
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.244
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.245
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.245
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.246
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.246
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.247
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-11-24 15:40:02.248
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+!SESSION 2025-11-24 15:48:23.332 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-24 15:48:28.813
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-24 15:48:28.825
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-24 15:48:42.265
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-24 15:54:38.416
+!MESSAGE Indexed 'example_freeRTOS' (20 sources, 82 headers) in 3.4 sec: 5,517 declarations; 31,214 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0054%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-11-24 16:38:14.559
+!MESSAGE Indexed 'freertos_example' (20 sources, 82 headers) in 4.64 sec: 5,517 declarations; 31,214 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0054%)
+!SESSION 2025-11-28 08:46:19.731 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-11-28 08:46:33.656
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-11-28 08:46:33.661
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-11-28 08:46:57.919
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-01 12:30:46.216 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-01 12:30:54.185
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-01 12:30:54.186
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-01 12:31:12.855
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.443
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.454
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.454
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.454
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.456
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.458
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.458
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.458
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.460
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.460
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.460
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.460
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.462
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.462
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.462
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:58:35.462
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/container}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.288
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.288
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.289
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.290
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.290
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.290
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.291
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.292
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.292
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.293
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.294
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 12:59:19.294
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.672
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.673
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.673
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.674
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.674
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.675
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Debug/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.675
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.676
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.676
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.677
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common/ports/stm32f7xx}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.677
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Common}"
+
+!ENTRY com.st.stm32cube.ide.mcu.build 4 4 2025-12-01 13:27:59.677
+!MESSAGE Failed to check relative, returning possibly relative path: D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\chapter12_example2\Release/"" literal was "${workspace_loc:/${ProjName}/Src/MiddleWare/Console}"
+
+!ENTRY org.eclipse.ui 4 0 2025-12-01 14:04:16.225
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.swt.widgets.Shell.setVisible(boolean)" because the return value of "org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.getShell()" is null
+	at org.eclipse.ui.internal.findandreplace.overlay.FindReplaceOverlay.updatePlacementAndVisibility(FindReplaceOverlay.java:844)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4099)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3715)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:168)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:370)
+	at org.eclipse.jface.dialogs.ProgressMonitorDialog.run(ProgressMonitorDialog.java:470)
+	at org.eclipse.ui.internal.progress.ProgressMonitorJobsDialog.run(ProgressMonitorJobsDialog.java:230)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.disconnectFromWorkspace(IDEWorkbenchAdvisor.java:559)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$2.run(IDEWorkbenchAdvisor.java:366)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor.postShutdown(IDEWorkbenchAdvisor.java:387)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:3008)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1141)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1414)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1414)
+	at org.eclipse.ui.internal.Workbench.restart(Workbench.java:2568)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction.restart(OpenWorkspaceAction.java:220)
+	at org.eclipse.ui.internal.ide.actions.OpenWorkspaceAction$WorkspaceMRUAction.run(OpenWorkspaceAction.java:91)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:581)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:415)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1198)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1183)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:853)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$8(ActionContributionItem.java:1206)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SESSION 2025-12-01 14:05:40.206 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-01 14:05:46.673
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-01 14:05:46.674
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-01 14:06:03.524
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-01 17:14:36.812 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-01 17:14:43.215
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-01 17:14:43.228
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-01 17:15:03.172
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-07 12:16:26.550 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-07 12:16:34.532
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-07 12:16:34.534
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-07 12:17:15.729
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-12-14 10:45:00.139 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-14 10:45:07.403
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-14 10:45:07.405
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-14 10:45:56.475
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-14 11:11:33.218
+!MESSAGE Indexed 'chapter12_example2' (25 sources, 134 headers) in 3.25 sec: 11,725 declarations; 41,157 references; 3 unresolved inclusions; 218 syntax errors; 167 unresolved names (0.31%)
+!SESSION 2025-12-14 14:39:42.908 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-12-14 14:39:52.658
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-12-14 14:39:52.671
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-12-14 14:40:37.980
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 4 2025-12-14 14:59:11.018
+!MESSAGE Exception occurred while saving project preferences: /example_freeRTOS/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/example_freeRTOS)[368]: java.lang.Exception: Resource '/example_freeRTOS' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$2(ProjectPreferences.java:730)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:755)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:436)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:459)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2025-12-14 14:59:11.020
+!MESSAGE Resource '/example_freeRTOS' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/example_freeRTOS' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:364)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:238)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$2(ProjectPreferences.java:730)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2451)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:755)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:436)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:459)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1055)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1170)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:463)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1199)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4326)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1174)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3712)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:639)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:546)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-14 14:59:30.068
+!MESSAGE Indexed 'freertos_example2' (25 sources, 150 headers) in 3.62 sec: 15,093 declarations; 50,506 references; 7 unresolved inclusions; 883 syntax errors; 2,225 unresolved names (3.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-12-14 15:07:13.265
+!MESSAGE Indexed 'freertos_example3' (27 sources, 156 headers) in 2.21 sec: 15,732 declarations; 51,271 references; 7 unresolved inclusions; 883 syntax errors; 2,225 unresolved names (3.2%)
+!SESSION 2026-01-11 11:58:25.242 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2026-01-11 11:58:43.059
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-01-11 11:58:47.402
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-01-11 11:58:47.406
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-11 11:59:32.208
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2026-01-20 15:01:27.536 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2026-01-20 15:01:36.583
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-01-20 15:01:36.585
+!MESSAGE Log4j2 initialized with config file D:\PROJECT\BOOK_EXAMPLE\Book_Example_Repos\Source\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-01-20 15:01:56.560
+!MESSAGE Started RMI Server, listening on port 41337

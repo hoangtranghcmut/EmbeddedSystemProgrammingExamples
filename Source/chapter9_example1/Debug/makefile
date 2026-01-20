@@ -12,7 +12,7 @@ RM := rm -rf
 -include Src/MiddleWare/container/subdir.mk
 -include Src/MiddleWare/Console/subdir.mk
 -include Src/MiddleWare/Common/subdir.mk
--include Src/Driver/Components/dio/subdir.mk
+-include Src/Driver/Components/dio/stm32/subdir.mk
 -include Src/Driver/Components/Usart/subdir.mk
 -include Src/BSP/BSP_USART/subdir.mk
 -include Src/BSP/BSP_Led/subdir.mk

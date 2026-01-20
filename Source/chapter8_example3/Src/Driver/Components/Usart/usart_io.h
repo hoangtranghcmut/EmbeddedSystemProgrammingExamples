@@ -10,14 +10,18 @@
 #include "stm32f4xx.h"
 #include "ring_buf.h"
 #include <stdatomic.h>
-typedef struct
+
+// Forward declaration cho struct
+typedef struct UsartIo_t UsartIo_t;
+
+struct  UsartIo_t
 {
-	USART_TypeDef * hUsart;
-	RingBuf_t	  txRingBuf;
-	RingBuf_t	  rxRingBuf;
-	bool		  active;
-	bool		  tx_busy;
-}UsartIo_t;
+    USART_TypeDef * hUsart;
+    RingBuf_t       txRingBuf;
+    RingBuf_t       rxRingBuf;
+    bool            active;
+    bool            tx_busy;
+};
 
 
 void uart_io_active(UsartIo_t * me);

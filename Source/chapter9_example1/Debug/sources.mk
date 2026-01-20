@@ -30,7 +30,7 @@ Src/App \
 Src/BSP/BSP_Led \
 Src/BSP/BSP_USART \
 Src/Driver/Components/Usart \
-Src/Driver/Components/dio \
+Src/Driver/Components/dio/stm32 \
 Src/MiddleWare/Common \
 Src/MiddleWare/Console \
 Src/MiddleWare/container \

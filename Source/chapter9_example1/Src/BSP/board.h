@@ -22,11 +22,11 @@ enum{
 	#include "stm32f4xx.h"
 	#include "stm32f4xx_ll_usart.h"
 	#define CONSOLE_USART USART1
-	#define LED_GREEN_PORT	GPIOD
+	#define LED_GREEN_PORT	4 //GPIOD
 	#define LED_GREEN_PIN 	12
-	#define LED_BLUE_PORT	GPIOD
+	#define LED_BLUE_PORT	4 //GPIOD
 	#define LED_BLUE_PIN 	13
-	#define LED_RED_PORT	GPIOD
+	#define LED_RED_PORT	4 //GPIOD
 	#define LED_RED_PIN 	14
 
 

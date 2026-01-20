@@ -14,7 +14,7 @@
 "./Src/BSP/BSP_Led/bsp_led.o"
 "./Src/BSP/BSP_USART/bsp_uart.o"
 "./Src/Driver/Components/Usart/usart_io.o"
-"./Src/Driver/Components/dio/do.o"
+"./Src/Driver/Components/dio/stm32/do.o"
 "./Src/MiddleWare/Common/atomic.o"
 "./Src/MiddleWare/Console/console.o"
 "./Src/MiddleWare/container/ring_buf.o"

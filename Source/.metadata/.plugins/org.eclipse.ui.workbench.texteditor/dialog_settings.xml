@@ -3,6 +3,9 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="traceRETURN_vTaskStartScheduler"/>
+		<item value="xPortSysTickHandler"/>
+		<item value="hook"/>
 		<item value="GPIOA"/>
 		<item value="EVT_SYS_CONTROL_DOWN_BUTTON_PRESSED"/>
 		<item value="app_sys_control_s_operation_entry"/>

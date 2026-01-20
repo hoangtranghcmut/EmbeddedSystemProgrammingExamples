@@ -8,36 +8,28 @@
 #include "bsp_led.h"
 #include "do.h"
 
-//static do_t ledGreen = {
-//		.hGPIO = LED_GREEN_PORT,
-//		.ui32PinMask = 1 << LED_GREEN_PIN,
-//		.bStatus = false
-//};
 
-static do_t ledGreen;
-static do_t ledBlue;
-static do_t ledRed;
+static do_t ledGreen = {
+		.port = LED_GREEN_PORT,
+		.pin  = LED_GREEN_PIN,
+		.bStatus =  false
+};
+static do_t ledBlue= {
+		.port = LED_BLUE_PORT,
+		.pin  = LED_BLUE_PIN,
+		.bStatus =  false
+};
+static do_t ledRed= {
+		.port = LED_RED_PORT,
+		.pin  = LED_RED_PIN,
+		.bStatus =  false
+};
 
 void bsp_led_init()
 {
-	doInit_t initLedGStruct = {
-			.hGPIOInit = LED_GREEN_PORT,
-			.ui32PinNumInit = LED_GREEN_PIN,
-			.bStatusInit = false
-	};
-	doInit_t initLedBStruct = {
-			.hGPIOInit = LED_BLUE_PORT,
-			.ui32PinNumInit = LED_BLUE_PIN,
-			.bStatusInit = false
-	};
-	doInit_t initLedRStruct = {
-			.hGPIOInit = LED_RED_PORT,
-			.ui32PinNumInit = LED_RED_PIN,
-			.bStatusInit = false
-	};
-  do_init(&ledGreen, &initLedGStruct);
-  do_init(&ledBlue, &initLedBStruct);
-  do_init(&ledRed, &initLedRStruct);
+	do_reset(&ledRed);
+	do_reset(&ledBlue);
+	do_reset(&ledGreen);
 
 }
 

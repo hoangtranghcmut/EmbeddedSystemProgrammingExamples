@@ -29,9 +29,9 @@ enum{
 	#define LED_RED_PORT	GPIOD
 	#define LED_RED_PIN 	14
 
-	#define	RTC_SPI			SPI1
+	#define	RTC_SPI			1 // SPI1
 	#define RTC_CS_Pin 		 8
-	#define RTC_CS_GPIO_Port GPIOA
+	#define RTC_CS_GPIO_Port 1 // GPIOA
 
 
 #endif

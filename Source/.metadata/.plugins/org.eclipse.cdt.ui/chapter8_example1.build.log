@@ -1,4 +1,4 @@
-11:52:56 **** Clean-only build of configuration Debug for project chapter8_example1 ****
+15:05:20 **** Clean-only build of configuration Debug for project chapter8_example1 ****
 make -j12 clean 
 rm -rf ./Src/MiddleWare/Console/console.cyclo ./Src/MiddleWare/Console/console.d ./Src/MiddleWare/Console/console.o ./Src/MiddleWare/Console/console.su
 rm -rf ./Src/BSP/BSP_USART/bsp_uart.cyclo ./Src/BSP/BSP_USART/bsp_uart.d ./Src/BSP/BSP_USART/bsp_uart.o ./Src/BSP/BSP_USART/bsp_uart.su
@@ -9,5 +9,5 @@ rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main
 rm -rf chapter8_example1.elf chapter8_example1.list chapter8_example1.map default.size.stdout
  
 
-11:52:56 Build Finished. 0 errors, 0 warnings. (took 254ms)
+15:05:20 Build Finished. 0 errors, 0 warnings. (took 260ms)
 

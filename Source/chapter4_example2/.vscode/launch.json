@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Zazu",
+            "cwd": "${workspaceFolder}",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "external",
+            "gdbTarget": "localhost:3333",
+            "gdbPath": "",
+            "executable": "d:\\PROJECT\\BOOK_EXAMPLE\\Book_Example_Repos\\Source\\chapter4_example2\\Debug\\chapter4_example2.elf",
+            "preLaunchTask": "Run Zazu",
+            "runToEntryPoint": "main"
+        }
+    ]
+}
